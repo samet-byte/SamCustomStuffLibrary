@@ -11,3 +11,14 @@ dependencies {
   implementation 'com.github.samet-byte:SamCustomStuffLibrary:1.3'
 }
 ```
+
+## Example
+```kotlin
+SamTextFormat
+  .create("That's All!)
+  .bold()
+  .cyan()
+  .print()
+```
+$${{\color{Cyan}\Huge{\textsf{  That's\ All!\ \}}}}\$$
+
